@@ -12,6 +12,7 @@ namespace RegExAssignment
             string firstName;
             string lastName;
             string useremail;
+            string phone;
             
 
             UserRegistration userRegistration = new UserRegistration();
@@ -31,6 +32,12 @@ namespace RegExAssignment
             Console.WriteLine("Enter email");
             useremail = Console.ReadLine();
             result = userRegistration.UserEmailValidation(useremail);
+            Console.WriteLine(result);
+            Console.WriteLine("-----------");
+
+            Console.WriteLine("Enter the mobile number : ");
+            phone = Console.ReadLine();
+            result = userRegistration.PhoneNumberCheck(phone) ;
             Console.WriteLine(result);
 
 

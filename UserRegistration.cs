@@ -17,12 +17,19 @@ namespace RegExAssignment
         {
             return Regex.IsMatch(lastname, regExPattern);
         }
-        string regExEmail = "^[_A-Za-z0-9-]\\+]+(\\.[_A-Za-z0-9-]+)*@"
-            + "[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+        string regExEmail = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
+            + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 
         public bool UserEmailValidation(string email)
         {
             return Regex.IsMatch(email, regExEmail);
+        }
+        public string regExPattern2 = "^91?[0-9]{10}$";
+
+        public bool PhoneNumberCheck(string phoneNumber)
+        {
+            return Regex.IsMatch(phoneNumber, regExPattern2);
+
         }
     }
 }
