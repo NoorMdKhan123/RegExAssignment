@@ -8,10 +8,14 @@ namespace RegExAssignment
     class UserRegistration
 
     {
-        public string regExPattern = "^[A-Z]{1}[a-z]{2}$";
-        public bool ValidateName(string name)
+        public string regExPattern = "^[A-Z]{1}[a-z]{2,5}$";
+        public bool ValidateName(string firstname)
         {
-            return Regex.IsMatch(name, regExPattern);
+            return Regex.IsMatch(firstname, regExPattern);
+        }
+        public bool ValidateLastName(string lastname)
+        {
+            return Regex.IsMatch(lastname, regExPattern);
         }
     }
 }

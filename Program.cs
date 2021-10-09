@@ -9,12 +9,20 @@ namespace RegExAssignment
         static void Main(string[] args)
         {
             bool result;
-            string userName;
+            string firstName;
+            string lastName;
+
             UserRegistration userRegistration = new UserRegistration();
             Console.WriteLine("Enter first name : ");
-            userName = Console.ReadLine();
+            firstName = Console.ReadLine();
 
-            result = userRegistration.ValidateName(userName);
+            result = userRegistration.ValidateName(firstName);
+            Console.WriteLine(result);
+            Console.WriteLine("-----------");
+            Console.WriteLine("Enter last name : ");
+            lastName = Console.ReadLine();
+
+            result = userRegistration.ValidateName(lastName);
             Console.WriteLine(result);
 
         }
