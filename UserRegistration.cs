@@ -31,5 +31,10 @@ namespace RegExAssignment
             return Regex.IsMatch(phoneNumber, regExPattern2);
 
         }
+        public string regEx3 = "^[0-9A-Za-z]{8}";
+        public bool Password(string password)
+        {
+            return Regex.IsMatch(password, regEx3);
+        }
     }
 }

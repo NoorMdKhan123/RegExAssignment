@@ -13,6 +13,7 @@ namespace RegExAssignment
             string lastName;
             string useremail;
             string phone;
+            string password;
             
 
             UserRegistration userRegistration = new UserRegistration();
@@ -39,6 +40,14 @@ namespace RegExAssignment
             phone = Console.ReadLine();
             result = userRegistration.PhoneNumberCheck(phone) ;
             Console.WriteLine(result);
+            Console.WriteLine("-----------");
+
+            Console.WriteLine("Enter the password : ");
+            password = Console.ReadLine();
+            result = userRegistration.Password(password);
+            Console.WriteLine(result);
+            Console.WriteLine("-----------");
+
 
 
         }
