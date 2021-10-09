@@ -31,7 +31,7 @@ namespace RegExAssignment
             return Regex.IsMatch(phoneNumber, regExPattern2);
 
         }
-        public string regEx3 = "^(?=.*[A-Z])(?=.*[0-9])[0-9A-Za-z]{8}";
+        public string regEx3 = "^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$";
         public bool Password(string password)
         {
             return Regex.IsMatch(password, regEx3);
