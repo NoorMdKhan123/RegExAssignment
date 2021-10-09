@@ -1,0 +1,14 @@
+C:\Users\md048\source\repos\RegExAssignment\bin\Debug\netcoreapp3.1\RegExAssignment.exe
+C:\Users\md048\source\repos\RegExAssignment\bin\Debug\netcoreapp3.1\RegExAssignment.deps.json
+C:\Users\md048\source\repos\RegExAssignment\bin\Debug\netcoreapp3.1\RegExAssignment.runtimeconfig.json
+C:\Users\md048\source\repos\RegExAssignment\bin\Debug\netcoreapp3.1\RegExAssignment.runtimeconfig.dev.json
+C:\Users\md048\source\repos\RegExAssignment\bin\Debug\netcoreapp3.1\RegExAssignment.dll
+C:\Users\md048\source\repos\RegExAssignment\bin\Debug\netcoreapp3.1\RegExAssignment.pdb
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.csproj.AssemblyReference.cache
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.AssemblyInfoInputs.cache
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.AssemblyInfo.cs
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.csproj.CoreCompileInputs.cache
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.dll
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.pdb
+C:\Users\md048\source\repos\RegExAssignment\obj\Debug\netcoreapp3.1\RegExAssignment.genruntimeconfig.cache
