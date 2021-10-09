@@ -13,9 +13,6 @@ namespace RegExAssignment
         {
             return Regex.IsMatch(firstname, regExPattern);
         }
-        public bool ValidateLastName(string lastname)
-        {
-            return Regex.IsMatch(lastname, regExPattern);
-        }
+      
     }
 }
