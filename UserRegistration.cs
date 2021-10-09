@@ -13,6 +13,16 @@ namespace RegExAssignment
         {
             return Regex.IsMatch(firstname, regExPattern);
         }
-      
+        public bool ValidateLastName(string lastname)
+        {
+            return Regex.IsMatch(lastname, regExPattern);
+        }
+        string regExEmail = "^[_A-Za-z0-9-]\\+]+(\\.[_A-Za-z0-9-]+)*@"
+            + "[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+
+        public bool UserEmailValidation(string email)
+        {
+            return Regex.IsMatch(email, regExEmail);
+        }
     }
 }
